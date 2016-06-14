@@ -1,0 +1,45 @@
+
+h1 {
+	color: purple;
+	font-family: Impact, sans-serif;
+	font-size: 100px;
+	text-align: center;
+}
+
+h1::after {
+	content: "!";
+	color: purple;
+	font-family: Impact, sans-serif;
+	font-size: 100px;
+}
+
+#value-one {
+	margin-left: 33%;
+}
+
+.answer{
+	margin-left: 200px;
+	color: purple;
+	font-size: 200px;
+	font-weight: bold;
+	font-family: Impact, sans-serif;
+}
+
+#answer {
+	color: green;
+	font-size: 200px;
+	font-weight: bold;
+	font-family: Impact, sans-serif;
+}
+
+#calculate-button {
+	border: 5px solid orange;
+	background: lightgreen;
+	border-radius: 4px;
+}
+
+#calculate-button:hover {
+	border: 5px solid orange;
+	background: pink;
+	border-radius: 4px;
+}
